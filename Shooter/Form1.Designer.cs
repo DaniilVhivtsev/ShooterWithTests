@@ -34,7 +34,6 @@
             this.labelScoreNumber = new System.Windows.Forms.Label();
             this.labelPlayerName = new System.Windows.Forms.Label();
             this.textBoxPlayerName = new System.Windows.Forms.TextBox();
-            this.buttonNameConfirmation = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // pBar1
@@ -94,23 +93,11 @@
             this.textBoxPlayerName.TabIndex = 5;
             this.textBoxPlayerName.Visible = false;
             // 
-            // buttonNameConfirmation
-            // 
-            this.buttonNameConfirmation.Location = new System.Drawing.Point(741, 50);
-            this.buttonNameConfirmation.Name = "buttonNameConfirmation";
-            this.buttonNameConfirmation.Size = new System.Drawing.Size(75, 23);
-            this.buttonNameConfirmation.TabIndex = 6;
-            this.buttonNameConfirmation.Text = "Confirm";
-            this.buttonNameConfirmation.UseVisualStyleBackColor = true;
-            this.buttonNameConfirmation.Visible = false;
-            this.buttonNameConfirmation.Click += new System.EventHandler(this.buttonNameConfirmation_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.buttonNameConfirmation);
             this.Controls.Add(this.textBoxPlayerName);
             this.Controls.Add(this.labelPlayerName);
             this.Controls.Add(this.labelScoreNumber);
@@ -133,7 +120,6 @@
         private System.Windows.Forms.Label labelScoreNumber;
         private System.Windows.Forms.Label labelPlayerName;
         private System.Windows.Forms.TextBox textBoxPlayerName;
-        private System.Windows.Forms.Button buttonNameConfirmation;
     }
 }
 

@@ -68,7 +68,6 @@ namespace Shooter
                 pBarInstructions();
                 labelsScoreInstructions();
                 playerNameLabelTextBox();
-                buttonNameConfirmation.Visible = true;
             };
         }
         private void pBarInstructions()
@@ -185,7 +184,6 @@ namespace Shooter
                 labelScoreNumber.Visible = false;
                 labelPlayerName.Visible = false;
                 textBoxPlayerName.Visible = false;
-                buttonNameConfirmation.Visible = false;
                 Game.Score = 0;
                 return;
             };
@@ -633,11 +631,6 @@ namespace Shooter
         public void UpdateScore(object sender, EventArgs e)
         {
             labelScoreNumber.Text = Game.Score.ToString();
-        }
-
-        private void buttonNameConfirmation_Click(object sender, EventArgs e)
-        {
-            textBoxPlayerName.Enabled = false;
         }
     }
 }

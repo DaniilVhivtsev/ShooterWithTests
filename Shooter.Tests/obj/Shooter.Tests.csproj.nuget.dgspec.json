@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Данил\\source\\repos\\DaniilVhivtsev\\Shooter.Tests\\Shooter.Tests.csproj": {}
+    "C:\\Users\\Данил\\source\\repos\\1\\WithTests\\Shooter.Tests\\Shooter.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Данил\\source\\repos\\DaniilVhivtsev\\Shooter.Tests\\Shooter.Tests.csproj": {
+    "C:\\Users\\Данил\\source\\repos\\1\\WithTests\\Shooter.Tests\\Shooter.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Данил\\source\\repos\\DaniilVhivtsev\\Shooter.Tests\\Shooter.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Данил\\source\\repos\\1\\WithTests\\Shooter.Tests\\Shooter.Tests.csproj",
         "projectName": "Shooter.Tests",
-        "projectPath": "C:\\Users\\Данил\\source\\repos\\DaniilVhivtsev\\Shooter.Tests\\Shooter.Tests.csproj",
+        "projectPath": "C:\\Users\\Данил\\source\\repos\\1\\WithTests\\Shooter.Tests\\Shooter.Tests.csproj",
         "packagesPath": "C:\\Users\\Данил\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Данил\\source\\repos\\DaniilVhivtsev\\Shooter.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Данил\\source\\repos\\1\\WithTests\\Shooter.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Данил\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Данил\\source\\repos\\DaniilVhivtsev\\Shooter\\Shooter.csproj": {
-                "projectPath": "C:\\Users\\Данил\\source\\repos\\DaniilVhivtsev\\Shooter\\Shooter.csproj"
+              "C:\\Users\\Данил\\source\\repos\\1\\WithTests\\Shooter\\Shooter.csproj": {
+                "projectPath": "C:\\Users\\Данил\\source\\repos\\1\\WithTests\\Shooter\\Shooter.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\Данил\\Source\\Repos\\DaniilVhivtsev\\Shooter\\Shooter.csproj": {
+    "C:\\Users\\Данил\\source\\repos\\1\\WithTests\\Shooter\\Shooter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Данил\\Source\\Repos\\DaniilVhivtsev\\Shooter\\Shooter.csproj",
+        "projectUniqueName": "C:\\Users\\Данил\\source\\repos\\1\\WithTests\\Shooter\\Shooter.csproj",
         "projectName": "Shooter",
-        "projectPath": "C:\\Users\\Данил\\Source\\Repos\\DaniilVhivtsev\\Shooter\\Shooter.csproj",
+        "projectPath": "C:\\Users\\Данил\\source\\repos\\1\\WithTests\\Shooter\\Shooter.csproj",
         "packagesPath": "C:\\Users\\Данил\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Данил\\Source\\Repos\\DaniilVhivtsev\\Shooter\\obj\\",
+        "outputPath": "C:\\Users\\Данил\\source\\repos\\1\\WithTests\\Shooter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Данил\\AppData\\Roaming\\NuGet\\NuGet.Config",

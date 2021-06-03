@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pbziPTfGlFXJzcGAiw4eVB9ighfEXW7X/7on9NcKSqVivq9FB4t76tH5grUkb8EpfNocomVOREguog932hA8GA==",
+  "dgSpecHash": "C3kVLCCH3OpMik/HfFXT8bya0BFBh4hmfxjVSHlaIeBU/84C1kaY62asV1GZ455XU5CECxhqA/zU8G5+Tjfkcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Данил\\source\\repos\\DaniilVhivtsev\\Shooter.Tests\\Shooter.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Данил\\source\\repos\\1\\WithTests\\Shooter.Tests\\Shooter.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Данил\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\Данил\\.nuget\\packages\\microsoft.dotnet.internalabstractions\\1.0.0\\microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",
