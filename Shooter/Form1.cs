@@ -527,7 +527,7 @@ namespace Shooter
         public void Shooting (object sender, EventArgs args)
         {
 
-            var shoot = new Phisics_Of_Shoot(new Point(Entity.PosX, Entity.PosY));
+            var shoot = new PhisicsOfShoot(new Point(Entity.PosX, Entity.PosY));
             Game.Shoots.Add(shoot);
 
             var x = 0;
@@ -583,7 +583,7 @@ namespace Shooter
 
         public void MakeShootByEnemy(int indexOfEnemy)
         {
-            var shoot = new Phisics_Of_Shoot(new Point(Game.Enemies[indexOfEnemy].Position.X, Game.Enemies[indexOfEnemy].Position.Y), new Point(Entity.PosX, Entity.PosY));
+            var shoot = new PhisicsOfShoot(new Point(Game.Enemies[indexOfEnemy].Position.X, Game.Enemies[indexOfEnemy].Position.Y), new Point(Entity.PosX, Entity.PosY));
             Game.ShootsEnemy.Add(shoot);
 
 

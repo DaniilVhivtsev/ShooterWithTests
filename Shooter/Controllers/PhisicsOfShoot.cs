@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace Shooter.Controllers
 {
-    public class Phisics_Of_Shoot
+    public class PhisicsOfShoot
     {
         public Point Position;
         public int StepX;
@@ -21,7 +21,7 @@ namespace Shooter.Controllers
         public bool CanMakeShootHero;
         public bool CanMakeShootEnemy;
 
-        public Phisics_Of_Shoot(Point dir)
+        public PhisicsOfShoot(Point dir)
         {
             Position.X = dir.X - 5;
             Position.Y = dir.Y + 20;
@@ -36,7 +36,7 @@ namespace Shooter.Controllers
             
         }
 
-        public Phisics_Of_Shoot(Point dir, Point person)
+        public PhisicsOfShoot(Point dir, Point person)
         {
             Position.X = dir.X - 5;
             Position.Y = dir.Y + 20;

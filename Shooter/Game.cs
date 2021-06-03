@@ -17,8 +17,8 @@ namespace Shooter
 
         public static List<Enemy> Enemies;
 
-        public static List<Phisics_Of_Shoot> Shoots;
-        public static List<Phisics_Of_Shoot> ShootsEnemy;
+        public static List<PhisicsOfShoot> Shoots;
+        public static List<PhisicsOfShoot> ShootsEnemy;
 
         public static int SpeedOfShootButtonHeroNumericNumber
         {
@@ -60,8 +60,8 @@ namespace Shooter
 
             Player = new Entity(310, 310, Hero.IdleFrames, Hero.RunFrames, Hero.AtackFrames, Hero.DeathFrames, DwarfSheet);
 
-            Shoots = new List<Phisics_Of_Shoot>();
-            ShootsEnemy = new List<Phisics_Of_Shoot>();
+            Shoots = new List<PhisicsOfShoot>();
+            ShootsEnemy = new List<PhisicsOfShoot>();
 
             Enemies = new List<Enemy>();
             Enemies = MapController.Enemies;

@@ -36,7 +36,7 @@ namespace Shooter.Tests
             var endPointX = 100;
             var endPointY = 100;
 
-            var bullet = new Phisics_Of_Shoot(new Point(0, 0), new Point(endPointX, endPointY));
+            var bullet = new PhisicsOfShoot(new Point(0, 0), new Point(endPointX, endPointY));
             for (int i = 0; i < 10; i++)
                 bullet.MakeShootEnemy();
             Assert.AreEqual(endPointX + 5, bullet.Position.X);
@@ -47,7 +47,7 @@ namespace Shooter.Tests
         public void HeroHealthDecreasse()
         {
             Entity.Health = 100;
-            var bullet = new Phisics_Of_Shoot(new Point(100, 100), new Point(Entity.PosX, Entity.PosY));
+            var bullet = new PhisicsOfShoot(new Point(100, 100), new Point(Entity.PosX, Entity.PosY));
             for (int i = 0; i < 10; i++)
                 bullet.MakeShootEnemy();
             Assert.AreEqual(true, Entity.Health < 100 && Entity.Health >= 50);
